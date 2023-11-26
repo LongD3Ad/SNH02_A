@@ -1,0 +1,50 @@
+// After the user signs into the website
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="aftersignin.css">
+</head>
+<body>
+    <div class="container" >
+        <h1>Welcome to heiler's Hub!</h1>
+        <img src="ri_6.png" alt="Image Description">
+        <p>This is a sample webpage generated from an image.</p>
+        <div class="section-title text-center">
+    
+          <h2>Say Hello to ALLY AVA
+            ! Your Healthcare chatbot </h2>
+          <p class="separator">Stay connected and track ur health</p>
+  
+        </div>
+        <!--button id="myButton">Click Me</button-->
+    </div>
+    <section id="get-started" class="padd-section text-center wow fadeInUp">
+      <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"21085345493c5af3dc6521edf49ca972","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    
+    </script>
+        <!--div class="container bot" id="bot">
+          <div class="row">
+         
+        
+            <iframe class="bot"
+        allow="microphone;"
+        width="75%"
+        height="500"
+        style="margin : 0 auto 5rem auto; border-radius: 33px; border:none;
+        background: #e0e0e0;
+        box-shadow:  13px 13px 54px #848484,
+                     -13px -13px 54px #ffffff;"
+        src="https://console.dialogflow.com/api-client/demo/embedded/3f6c7fdb-ebc9-485e-92c0-dd5119b50f82">
+    </iframe-->
+    <script src="aftersignin.js"></script>
+</body>
+</html>
